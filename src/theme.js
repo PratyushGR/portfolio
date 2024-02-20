@@ -195,4 +195,18 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = blueTheme;
+export const customTheme1 = {
+  body: "#ffffff", // background color of the body
+  text: "#05505E", // primary text color
+  expTxtColor: "#000000", // color for explanatory text
+  highlight: "#a1dded", // highlight color
+  dark: "#07292c", // dark color used for contrast or shadows
+  secondaryText: "#05505E", // secondary text color
+  imageHighlight: "#0a343c", // color for highlighted images
+  compImgHighlight: "#E1E2E1", // color for highlighted component images
+  jacketColor: "#E1E2E1", // color for jackets (possibly used in designs)
+  headerColor: "#E1E2E1", // color for headers
+  splashBg: "#05505E", // background color for splash screens
+};
+
+export const chosenTheme = customTheme1;
